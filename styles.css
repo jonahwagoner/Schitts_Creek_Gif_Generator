@@ -1,0 +1,53 @@
+@font-face{
+    font-family: "Schitt";
+  src: url(DidotLTPro-Roman.ttf) format('truetype');
+  }
+
+body {
+    background-color: rgb(0, 0, 36);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#wrapper {
+    color: white;
+    display: flex;
+    flex-flow: column nowrap;
+    font-family: Schitt;
+    color: rgb(250, 250, 67);
+}
+
+h3 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 7vh;
+    margin: auto;
+}
+#button{
+    color: aqua;
+    order: 3;
+    display: flex;
+    justify-content: center;
+    padding-top: 6vh;
+}
+
+button{
+    font-size: 5vh;
+    font-family: Schitt;
+    background-color: black;
+    color: white;
+}
+
+img{
+    order: 1;
+    width: 65vh;
+    height: 530px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
